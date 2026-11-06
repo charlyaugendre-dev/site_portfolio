@@ -11,21 +11,21 @@ export const profil = {
   sousTitre: 'Fondateur d\'applications mobiles et créateur de contenu',
   accroche:
     'Je me forme à la gestion comptable, fiscale et financière à l\'IUT de l\'Indre, et en parallèle je conçois et je lance mes propres applications iOS. Deux terrains différents, une même logique : comprendre les chiffres, les rendre fiables et en tirer des décisions.',
-  localisation: 'Châteauroux, Indre (36)',
-  email: 'charlyaugendre36@gmail.com',
+  localisation: 'Neuvy-Saint-Sépulchre (36), mobile sur Châteauroux et alentours',
+  email: 'charly.augendre@etu.univ-orleans.fr',
   linkedin: 'https://www.linkedin.com/in/charly-augendre-289b22384/',
   // Dépose ton CV dans le dossier public/ et mets ici './cv-charly-augendre.pdf'
   // Laisse la chaîne vide pour masquer le bouton.
-  cvUrl: '',
+  cvUrl: './cv-charly-augendre.pdf',
   // Dépose ta photo dans public/ (par exemple photo.jpg) et mets './photo.jpg'
   photoUrl: '',
   disponibilite: 'Recherche un stage du 25 février au 15 mai 2027',
 }
 
 export const chiffresCles = [
-  { valeur: '2', libelle: 'applications iOS conçues et développées' },
-  { valeur: '8 sem.', libelle: 'de stage en cabinet d\'expertise comptable' },
-  { valeur: '3 ans', libelle: 'de pratique sportive assidue et de discipline' },
+  { valeur: '≈ 50', libelle: 'dossiers clients traités en cabinet d\'expertise comptable' },
+  { valeur: '15', libelle: 'dossiers menés jusqu\'à la déclaration de TVA validée' },
+  { valeur: '2', libelle: 'applications iOS conçues, dont une publiée sur l\'App Store' },
 ]
 
 // -------------------------------------------------------------
@@ -39,7 +39,7 @@ export const apropos = {
       cle: 'Le parcours',
       titre: 'La gestion comme socle',
       texte:
-        'J\'ai choisi le BUT GEA puis le parcours gestion comptable, fiscale et financière parce que c\'est la discipline qui explique comment une entreprise tient debout. La comptabilité n\'est pas un exercice administratif pour moi, c\'est la matière première de toute décision. Mon stage en cabinet d\'expertise comptable m\'a confirmé que je voulais maîtriser cette chaîne de bout en bout, de la pièce justificative à la déclaration fiscale.',
+        'J\'ai commencé par une première année de BUT en génie électrique et informatique industrielle avant de me réorienter vers la gestion. Ce n\'était pas un échec mais une correction de trajectoire : j\'avais compris que ce qui m\'intéressait, ce n\'était pas la technique pour elle-même, c\'était ce qui fait tourner une entreprise. J\'ai donc choisi le BUT GEA puis le parcours gestion comptable, fiscale et financière, parce que c\'est la discipline qui explique comment une entreprise tient debout. La comptabilité n\'est pas un exercice administratif pour moi, c\'est la matière première de toute décision. Mon stage en cabinet d\'expertise comptable m\'a confirmé que je voulais maîtriser cette chaîne de bout en bout, de la pièce justificative à la déclaration fiscale.',
     },
     {
       cle: 'L\'entrepreneuriat',
@@ -203,15 +203,17 @@ export const realisationsPro = [
       'Comprendre comment le cabinet sécurise la fiabilité de l\'information produite',
     ],
     demarche: [
-      'Numérisation et classement des pièces, puis saisie des écritures',
-      'Rapprochements bancaires et lettrage des comptes de tiers',
-      'Préparation des déclarations de TVA (CA3)',
-      'Prise en main des outils du cabinet : SIS-IA, Espace GED et Facilia',
+      'Saisie des factures d\'achat, de vente et des avoirs sur SIS-IA et Ex-Libris',
+      'Traduction des relevés bancaires et suivi du compte d\'attente 471',
+      'Lettrage des comptes clients et fournisseurs, avec détection et correction des erreurs d\'imputation',
+      'Calcul de la TVA sur Excel puis vérification croisée avec les soldes du logiciel',
+      'Travail sur des secteurs variés : BTP, restauration, artisanat, santé libérale et commerce',
     ],
     contribution:
-      'J\'ai pris en charge des dossiers de A à Z sous la supervision de ma tutrice, en traitant la chaîne du document jusqu\'à la déclaration. J\'ai également rédigé un rapport d\'une quarantaine de pages dont la problématique portait sur la façon dont la maîtrise de la chaîne comptable conditionne la fiabilité de la donnée dans un secteur en transformation numérique.',
+      'J\'ai traité environ 50 dossiers clients de TPE, dont 15 menés de bout en bout jusqu\'à la déclaration de TVA validée. Le contrôle croisé entre mon calcul sur Excel et les soldes du logiciel est devenu mon réflexe systématique avant toute validation, c\'est ce qui m\'a permis de repérer plusieurs erreurs d\'imputation. J\'ai également rédigé un rapport d\'une quarantaine de pages dont la problématique portait sur la façon dont la maîtrise de la chaîne comptable conditionne la fiabilité de la donnée dans un secteur en transformation numérique.',
     resultats: [
-      'Dossiers traités et validés par la tutrice',
+      'Environ 50 dossiers traités, dont 15 jusqu\'à la déclaration de TVA validée',
+      'Prise en charge autonome de dossiers après quelques semaines',
       'Rapport de stage d\'une quarantaine de pages et soutenance orale devant le jury',
     ],
     reflexion: {
@@ -315,11 +317,16 @@ export const pointsForts = {
     },
   ],
   outils: [
-    'Excel et tableur avancé',
-    'SIS-IA et Espace GED',
-    'Facilia',
+    'Excel : tableaux de suivi automatisés',
+    'Word : mise en forme avancée, modèles, sommaires',
+    'PowerPoint',
+    'Logiciels métiers : SIS-IA, Ex-Libris, GED',
     'VS Code, React, Git',
-    'Suite de création visuelle',
+  ],
+  langues: [
+    { langue: 'Français', niveau: 'Langue maternelle' },
+    { langue: 'Anglais', niveau: 'Niveau B2' },
+    { langue: 'Espagnol', niveau: 'Niveau B2' },
   ],
 }
 
@@ -378,8 +385,23 @@ export const parcours = [
     lieu: 'Barilla, Montierchaume',
   },
   {
+    date: 'Janvier - février 2025',
+    titre: 'Stage en gestion, réorganisation des vestiaires du personnel',
+    lieu: 'Leroy Merlin, Châteauroux',
+  },
+  {
     date: '2024 - 2026',
-    titre: 'BUT 1 et BUT 2 GEA',
+    titre: 'BUT 1 et BUT 2 GEA, parcours gestion comptable, fiscale et financière',
     lieu: 'IUT de l\'Indre, Université d\'Orléans',
+  },
+  {
+    date: '2023 - 2024',
+    titre: 'Première année de BUT GEII, puis réorientation vers la gestion',
+    lieu: 'IUT de l\'Indre, Université d\'Orléans',
+  },
+  {
+    date: '2023',
+    titre: 'Baccalauréat général, spécialités mathématiques et physique-chimie',
+    lieu: 'Lycée George Sand, La Châtre',
   },
 ]

@@ -38,13 +38,36 @@ export default function PointsForts() {
         ))}
       </div>
 
-      <h2>Mes outils</h2>
-      <div style={{ marginTop: '20px' }}>
-        {pointsForts.outils.map((o, i) => (
-          <span className="tag" key={i}>
-            {o}
-          </span>
-        ))}
+      <div className="grid grid-2">
+        <div>
+          <h2>Mes outils</h2>
+          <div style={{ marginTop: '20px' }}>
+            {pointsForts.outils.map((o, i) => (
+              <span className="tag" key={i}>
+                {o}
+              </span>
+            ))}
+          </div>
+        </div>
+        <div>
+          <h2>Mes langues</h2>
+          <div style={{ marginTop: '20px' }}>
+            {pointsForts.langues.map((l, i) => (
+              <div
+                key={i}
+                style={{
+                  display: 'flex',
+                  justifyContent: 'space-between',
+                  padding: '10px 0',
+                  borderBottom: '1px solid var(--border)',
+                }}
+              >
+                <span>{l.langue}</span>
+                <span className="muted">{l.niveau}</span>
+              </div>
+            ))}
+          </div>
+        </div>
       </div>
     </section>
   )
