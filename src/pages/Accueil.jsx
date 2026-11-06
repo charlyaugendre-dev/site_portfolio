@@ -1,101 +1,87 @@
 import { Link } from 'react-router-dom'
 import { profil, chiffresCles } from '../data/content.js'
 
+const pages = [
+  { to: '/a-propos', name: 'À propos de moi', desc: 'Mon parcours, mes valeurs et ce que je cherche à construire' },
+  { to: '/passion', name: 'Ma passion', desc: 'Le sport, la création de contenu et ce que j\'en ai tiré' },
+  { to: '/realisations-universite', name: 'Réalisations à l\'université', desc: 'Mes travaux de BUT 2 et l\'analyse que j\'en fais' },
+  { to: '/realisations-professionnelles', name: 'Réalisations professionnelles', desc: 'Mon stage en cabinet et mes projets personnels' },
+  { to: '/points-forts', name: 'Mes points forts', desc: 'Trois compétences du référentiel et trois savoir-être' },
+  { to: '/ouverture', name: 'Ouverture', desc: 'Travailler et s\'adresser à des gens qui ne me ressemblent pas' },
+]
+
 export default function Accueil() {
   return (
     <>
-      <section className="hero">
-        <div className="container hero-grid">
-          <div>
-            <div className="badge">
-              <span className="dot" />
-              {profil.disponibilite}
-            </div>
-            <h1>
-              {profil.prenom} {profil.nom}
-            </h1>
-            <p className="lead">{profil.titre}</p>
-            <p className="muted" style={{ marginTop: '-6px' }}>{profil.sousTitre}</p>
-            <p style={{ marginTop: '24px', maxWidth: '620px' }}>{profil.accroche}</p>
-            <div className="actions">
-              <Link className="btn btn-primary" to="/realisations-professionnelles">
-                Voir mes réalisations
-              </Link>
-              {profil.cvUrl && (
-                <a className="btn" href={profil.cvUrl} download>
-                  Télécharger mon CV
-                </a>
-              )}
-              <a className="btn" href={`mailto:${profil.email}`}>
-                Me contacter
-              </a>
-            </div>
-          </div>
+      <section className="hero fade">
+        <div className="wrap">
+          <div className="statement">{profil.disponibilite}</div>
+          <h1 className="hero-name">
+            {profil.prenom}
+            <br />
+            {profil.nom}
+          </h1>
+          <p className="hero-role">{profil.titre}</p>
+          <p className="hero-sub">{profil.sousTitre}</p>
 
-          <div>
+          <div className="hero-grid">
+            <p className="hero-note">{profil.accroche}</p>
             {profil.photoUrl ? (
               <img className="portrait" src={profil.photoUrl} alt={`${profil.prenom} ${profil.nom}`} />
             ) : (
-              <div className="portrait">
-                Dépose ta photo dans le dossier public/ puis renseigne photoUrl dans src/data/content.js
+              <div className="portrait portrait-vide">
+                Photo à déposer dans public/ puis à renseigner dans content.js
               </div>
             )}
+          </div>
+
+          <div className="actions">
+            {profil.cvUrl && (
+              <a className="action action-solid" href={profil.cvUrl} download>
+                Télécharger mon CV
+              </a>
+            )}
+            <a className="action" href={`mailto:${profil.email}`}>
+              M'écrire
+            </a>
           </div>
         </div>
       </section>
 
-      <section className="container" style={{ paddingBottom: '72px' }}>
-        <div className="grid grid-3">
+      <section className="band">
+        <div className="wrap">
+          <div className="band-title">En quelques chiffres</div>
           {chiffresCles.map((c, i) => (
-            <div className="card stat" key={i}>
-              <div className="value">{c.valeur}</div>
-              <div className="label">{c.libelle}</div>
+            <div className="releve-line" key={i}>
+              <span className="figure">{c.valeur}</span>
+              <span className="what">{c.libelle}</span>
             </div>
           ))}
         </div>
       </section>
 
-      <section className="container" style={{ paddingBottom: '72px' }}>
-        <div className="grid grid-2">
-          <Link className="card card-accent" to="/a-propos">
-            <h3>À propos de moi</h3>
-            <p className="muted" style={{ margin: 0 }}>
-              Mon parcours, mes valeurs et ce que je cherche à construire.
-            </p>
-          </Link>
-          <Link className="card card-accent" to="/passion">
-            <h3>Ma passion</h3>
-            <p className="muted" style={{ margin: 0 }}>
-              Le sport, la création de contenu et ce que j'en ai tiré.
-            </p>
-          </Link>
-          <Link className="card card-accent" to="/realisations-universite">
-            <h3>Réalisations à l'université</h3>
-            <p className="muted" style={{ margin: 0 }}>
-              Mes travaux de BUT 2 et l'analyse que j'en fais.
-            </p>
-          </Link>
-          <Link className="card card-accent" to="/points-forts">
-            <h3>Mes points forts</h3>
-            <p className="muted" style={{ margin: 0 }}>
-              Trois compétences du référentiel et trois savoir-être.
-            </p>
-          </Link>
-        </div>
-      </section>
+      <section className="wrap">
+        <nav className="index">
+          {pages.map((p) => (
+            <Link className="index-item" to={p.to} key={p.to}>
+              <span className="name">{p.name}</span>
+              <span className="desc">{p.desc}</span>
+            </Link>
+          ))}
+        </nav>
 
-      <section className="container">
-        <div className="cta">
-          <h2>Parlons-en</h2>
-          <p className="muted">
-            {profil.disponibilite}. {profil.localisation} et mobile.
+        <div className="closing">
+          <h2>Me contacter</h2>
+          <p className="prose muted">
+            {profil.localisation}. Je réponds à toutes les propositions de stage et aux questions sur
+            mes projets.
           </p>
-          <div className="actions" style={{ justifyContent: 'center' }}>
-            <a className="btn btn-primary" href={`mailto:${profil.email}`}>
+          <div className="actions">
+            <a className="action action-solid" href={`mailto:${profil.email}`}>
               {profil.email}
             </a>
-            <a className="btn" href={profil.linkedin} target="_blank" rel="noreferrer">
-              LinkedIn
+            <a className="action" href={profil.linkedin} target="_blank" rel="noreferrer">
+              Mon profil LinkedIn
             </a>
           </div>
         </div>

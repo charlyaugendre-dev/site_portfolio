@@ -8,7 +8,7 @@ export const profil = {
   prenom: 'Charly',
   nom: 'Augendre',
   titre: 'Étudiant en BUT 3 GEA, parcours gestion comptable, fiscale et financière',
-  sousTitre: 'Fondateur d\'applications mobiles et créateur de contenu',
+  sousTitre: 'Fondateur d\'une application mobile iOS',
   accroche:
     'Je me forme à la gestion comptable, fiscale et financière à l\'IUT de l\'Indre, et en parallèle je conçois et je lance mes propres applications iOS. Deux terrains différents, une même logique : comprendre les chiffres, les rendre fiables et en tirer des décisions.',
   localisation: 'Neuvy-Saint-Sépulchre (36), mobile sur Châteauroux et alentours',
@@ -19,13 +19,13 @@ export const profil = {
   cvUrl: './cv-charly-augendre.pdf',
   // Dépose ta photo dans public/ (par exemple photo.jpg) et mets './photo.jpg'
   photoUrl: '',
-  disponibilite: 'Recherche un stage du 25 février au 15 mai 2027',
+  disponibilite: 'Recherche un stage du 22 février au 15 mai 2027',
 }
 
 export const chiffresCles = [
   { valeur: '≈ 50', libelle: 'dossiers clients traités en cabinet d\'expertise comptable' },
   { valeur: '15', libelle: 'dossiers menés jusqu\'à la déclaration de TVA validée' },
-  { valeur: '2', libelle: 'applications iOS conçues, dont une publiée sur l\'App Store' },
+  { valeur: '1', libelle: 'application iOS conçue, développée et publiée sur l\'App Store' },
 ]
 
 // -------------------------------------------------------------
@@ -33,7 +33,7 @@ export const chiffresCles = [
 // -------------------------------------------------------------
 export const apropos = {
   intro:
-    'Je suis quelqu\'un qui a besoin de construire. Pas seulement d\'apprendre une matière, mais d\'en faire quelque chose de concret. C\'est le fil rouge de mon parcours depuis trois ans.',
+    'J\'aime créer des choses par moi-même. Pas seulement apprendre une matière, mais en faire quelque chose de concret et le mener jusqu\'au bout. C\'est le fil rouge de mon parcours.',
   chapitres: [
     {
       cle: 'Le parcours',
@@ -45,7 +45,7 @@ export const apropos = {
       cle: 'L\'entrepreneuriat',
       titre: 'Construire mes propres projets',
       texte:
-        'En parallèle de mes études, j\'ai créé une micro-entreprise et lancé deux applications iOS. LUCIDE, une application de suivi nutritionnel destinée aux sportifs, est publiée sur l\'App Store et compte ses premiers abonnés payants. SKAN, une application d\'analyse physique, est en cours de développement. J\'ai tout mené moi-même : l\'idée, le positionnement, le développement, l\'image de marque et l\'acquisition.',
+        'En parallèle de mes études, j\'ai créé une micro-entreprise et lancé LUCIDE, une application de suivi nutritionnel destinée aux sportifs, aujourd\'hui publiée sur l\'App Store avec ses premiers abonnés payants. J\'ai tout mené moi-même : l\'idée, le positionnement, le développement, l\'image de marque et la mise en ligne.',
     },
     {
       cle: 'La méthode',
@@ -63,7 +63,7 @@ export const apropos = {
       cle: 'La suite',
       titre: 'Où je vais',
       texte:
-        'Je cherche un stage de fin de BUT du 25 février au 15 mai 2027, idéalement en cabinet, en direction financière ou en contrôle de gestion. Je veux une mission où l\'on produit de la donnée fiable et où l\'on s\'en sert pour conseiller. À plus long terme, je continuerai à développer mes projets en parallèle.',
+        'Je cherche un stage de fin de BUT du 22 février au 15 mai 2027, idéalement en cabinet, en direction financière ou en contrôle de gestion. Je veux une mission où l\'on produit de la donnée fiable et où l\'on s\'en sert pour conseiller. En parallèle, je compte continuer à développer mon application sur les prochaines années.',
     },
   ],
   motsCles: ['Comptabilité', 'Contrôle de gestion', 'Fiscalité', 'Entrepreneuriat', 'Produit', 'Autonomie'],
@@ -73,34 +73,34 @@ export const apropos = {
 //  MA PASSION
 // -------------------------------------------------------------
 export const passion = {
-  titre: 'Le sport et la création de contenu',
+  titre: 'Le sport, de la chambre à la salle',
   chapo:
-    'La musculation m\'accompagne depuis bientôt trois ans. Elle m\'a appris la régularité avant de m\'apprendre quoi que ce soit d\'autre. De cette passion est née une activité de créateur de contenu, puis une application, puis un vrai sujet professionnel.',
+    'Le sport m\'accompagne depuis l\'enfance : sept ans de judo, trois ans de natation, puis la musculation. C\'est ce qui m\'a appris la régularité bien avant que je l\'applique à mes études et à mes projets.',
   recit: [
-    'J\'ai commencé à m\'entraîner sans méthode, comme tout le monde. Ce qui a changé les choses, c\'est le moment où j\'ai arrêté d\'improviser : suivi des séances, suivi de l\'alimentation, mesure des progrès. Le même réflexe que celui qu\'on applique à un tableau de bord d\'entreprise, appliqué à soi.',
-    'J\'ai ensuite voulu partager cette méthode. J\'ai lancé un compte de contenu sportif où je publie des formats courts sur la progression et les erreurs de débutant. J\'ai appris à écrire des accroches, à tester, à lire mes statistiques et à corriger. Certaines publications dépassent les dizaines de milliers de vues, d\'autres non, et c\'est précisément en comparant les deux que j\'ai compris ce qui fonctionne.',
-    'Cette activité m\'a amené à travailler avec une marque dans le cadre d\'un partenariat, et surtout à créer LUCIDE pour répondre au besoin que je constatais chez les gens qui me suivaient.',
+    'J\'ai arrêté le judo vers 12 ou 13 ans et j\'ai commencé à m\'entraîner chez moi, au poids du corps et avec quelques haltères. Pendant des années, c\'est resté une habitude de chambre, sans matériel et sans vraie méthode, mais je n\'ai jamais arrêté.',
+    'Je suis entré en salle à 17 ans, en arrivant à Châteauroux pour mes études supérieures. J\'ai pris mes repères vite et je suis resté constant depuis, soit plus de trois ans de pratique régulière. Ce qui change entre la chambre et la salle, ce n\'est pas le matériel, c\'est le fait de mesurer ce qu\'on fait.',
+    'C\'est en créant LUCIDE que je me suis mis à suivre précisément mes calories, mes macronutriments et mon hydratation. Je me sers tous les jours de l\'application que j\'ai construite, ce qui reste la façon la plus honnête de savoir si un produit tient la route.',
   ],
   madSkills: [
     {
-      titre: 'Lire une donnée d\'audience',
-      texte:
-        'Taux de likes, taux d\'enregistrement, rétention. J\'ai pris l\'habitude de décider à partir de chiffres plutôt qu\'à l\'instinct, et de tester une variable à la fois.',
-    },
-    {
-      titre: 'Écrire pour être compris',
-      texte:
-        'Faire passer une idée en trois phrases, sans jargon. Une compétence que je réutilise directement pour présenter un travail ou une analyse.',
-    },
-    {
       titre: 'Tenir dans la durée',
       texte:
-        'Publier et s\'entraîner quand ça ne donne pas de résultat immédiat. C\'est ce qui m\'a appris à ne pas abandonner un projet au premier mur.',
+        'Dix ans d\'entraînement sans interruption, dont plus de trois en salle, sans que personne ne me le demande. C\'est ce qui m\'a appris à ne pas lâcher un projet au premier mur, que ce soit un dossier ou une application.',
     },
     {
-      titre: 'S\'adresser à une autre culture',
+      titre: 'Mesurer au lieu de supposer',
       texte:
-        'Mon audience principale est américaine. J\'ai dû adapter mes codes, mon rythme et mes références pour être lu par des gens qui ne partagent pas les miens.',
+        'Suivre ses calories, ses macronutriments et sa progression, c\'est tenir un tableau de bord. Je raisonne de la même façon sur un dossier : tant que ce n\'est pas chiffré, ce n\'est qu\'une impression.',
+    },
+    {
+      titre: 'Apprendre par moi-même',
+      texte:
+        'Personne ne m\'a appris à m\'entraîner, ni à développer une application. Dans les deux cas j\'ai avancé en cherchant, en testant et en corrigeant, et c\'est devenu ma façon d\'aborder un sujet que je ne maîtrise pas.',
+    },
+    {
+      titre: 'Être mon propre utilisateur',
+      texte:
+        'Construire un outil que j\'utilise moi-même tous les jours oblige à l\'honnêteté : les défauts se voient immédiatement et ne peuvent pas être repoussés à plus tard.',
     },
   ],
 }
@@ -152,38 +152,6 @@ export const realisationsUniversite = [
       'Décider : exploiter les données pour accompagner la prise de décision',
       'Piloter : mener un projet collaboratif',
     ],
-  },
-  {
-    titre: 'Cas de contrôle de gestion : Ateliers Roche',
-    periode: 'BUT 2, année universitaire 2025-2026',
-    role: 'Travail individuel',
-    contexte:
-      'Étude de cas de contrôle de gestion portant sur une entreprise industrielle fictive, les Ateliers Roche, utilisée en travaux dirigés pour mettre en application les méthodes de prévision et de budgétisation.',
-    objectifs: [
-      'Construire les budgets d\'exploitation à partir des données prévisionnelles',
-      'Produire les documents de synthèse prévisionnels et les commenter',
-    ],
-    demarche: [
-      'Analyse des données de départ et choix des méthodes de prévision adaptées',
-      'Construction des budgets puis du compte de résultat et du bilan prévisionnels',
-      'Contrôle de la cohérence d\'ensemble et interprétation des écarts',
-    ],
-    contribution:
-      'J\'ai traité l\'intégralité du cas, de la prévision des ventes jusqu\'aux documents de synthèse, en vérifiant systématiquement l\'équilibre des résultats produits.',
-    resultats: [
-      'Jeu complet de budgets et de documents prévisionnels cohérents',
-      'Lecture des écarts et des points de tension de trésorerie',
-    ],
-    reflexion: {
-      reussi:
-        'La rigueur du bouclage : j\'ai pris l\'habitude de ne jamais passer à l\'étape suivante sans avoir vérifié que la précédente s\'équilibrait.',
-      ameliorer:
-        'J\'ai passé trop de temps sur le calcul et pas assez sur le commentaire. Un contrôleur de gestion est jugé sur son analyse, pas sur sa capacité à poser un tableau.',
-      savoirs: 'Méthodes de prévision, construction budgétaire, articulation des documents de synthèse.',
-      savoirFaire: 'Modélisation sur tableur, contrôle de cohérence, lecture d\'écarts.',
-      savoirEtre: 'Méthode, patience, vérification systématique.',
-    },
-    competences: ['Évaluer : outils d\'analyse et de prévision de l\'activité'],
   },
 ]
 
@@ -292,14 +260,14 @@ export const pointsForts = {
       reference: 'Compétence « Décider », niveau 3 du référentiel',
       texte:
         'Construire des prévisions et des budgets, lire des écarts, suivre des indicateurs et en tirer une recommandation plutôt qu\'un simple constat.',
-      preuve: 'Cas de contrôle de gestion et pilotage de mes propres projets',
+      preuve: 'Travaux de contrôle de gestion et pilotage de mon application',
     },
     {
       titre: 'Conduite de projet de bout en bout',
       reference: 'Compétence « Piloter », niveau 3 du référentiel',
       texte:
         'Mener un projet de l\'idée au livrable : cadrer le besoin, planifier, arbitrer, livrer et mesurer. En groupe comme en autonomie complète.',
-      preuve: 'Projet tutoré en équipe et lancement de deux applications',
+      preuve: 'Projet collectif Créa Campus et lancement de mon application',
     },
   ],
   savoirEtre: [

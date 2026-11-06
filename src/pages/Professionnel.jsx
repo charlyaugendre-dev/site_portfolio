@@ -4,9 +4,8 @@ import { realisationsPro } from '../data/content.js'
 
 export default function Professionnel() {
   return (
-    <section className="page container">
+    <section className="sheet wrap">
       <PageHead
-        eyebrow="Réalisations"
         titre="Mes réalisations professionnelles"
         chapo="Mon stage en cabinet et les projets que je mène en dehors de l'université, avec le même niveau d'analyse."
       />

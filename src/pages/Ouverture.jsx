@@ -3,17 +3,15 @@ import { ouverture } from '../data/content.js'
 
 export default function Ouverture() {
   return (
-    <section className="page container">
-      <PageHead
-        eyebrow="Page bonus"
-        titre="Diversité, inclusion et autres cultures"
-        chapo={ouverture.chapo}
-      />
-      <div className="grid grid-2">
+    <section className="sheet wrap">
+      <PageHead titre="Diversité, inclusion et autres cultures" chapo={ouverture.chapo} />
+      <div>
         {ouverture.blocs.map((b, i) => (
-          <div className="card" key={i}>
-            <h3>{b.titre}</h3>
-            <p style={{ margin: 0 }}>{b.texte}</p>
+          <div className="row" key={i}>
+            <div className="side">{b.titre}</div>
+            <div className="body">
+              <p>{b.texte}</p>
+            </div>
           </div>
         ))}
       </div>

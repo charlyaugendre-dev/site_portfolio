@@ -4,9 +4,8 @@ import { realisationsUniversite } from '../data/content.js'
 
 export default function Universite() {
   return (
-    <section className="page container">
+    <section className="sheet wrap">
       <PageHead
-        eyebrow="Réalisations"
         titre="Mes travaux à l'université"
         chapo="Les projets menés en BUT 2 que je retiens, avec le contexte, ma contribution réelle et ce que j'en ai tiré."
       />

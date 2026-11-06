@@ -13,12 +13,12 @@ const liens = [
 
 export default function Header() {
   return (
-    <header className="header">
-      <div className="container header-inner">
-        <NavLink to="/" className="brand">
-          {profil.prenom} {profil.nom} <span>/ portfolio</span>
+    <header className="masthead">
+      <div className="wrap masthead-inner">
+        <NavLink to="/" className="wordmark">
+          {profil.prenom} {profil.nom}
         </NavLink>
-        <nav className="nav">
+        <nav className="menu">
           {liens.map((l) => (
             <NavLink key={l.to} to={l.to} end={l.end}>
               {l.label}

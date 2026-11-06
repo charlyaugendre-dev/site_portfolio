@@ -1,7 +1,6 @@
-export default function PageHead({ eyebrow, titre, chapo }) {
+export default function PageHead({ titre, chapo }) {
   return (
-    <div className="page-head">
-      {eyebrow && <div className="eyebrow">{eyebrow}</div>}
+    <div className="sheet-head">
       <h1>{titre}</h1>
       {chapo && <p className="lead">{chapo}</p>}
     </div>
