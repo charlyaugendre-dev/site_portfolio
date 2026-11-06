@@ -13,7 +13,7 @@ export const profil = {
     'Je me forme à la gestion comptable, fiscale et financière à l\'IUT de l\'Indre, et en parallèle je conçois et je lance mes propres applications iOS. Deux terrains différents, une même logique : comprendre les chiffres, les rendre fiables et en tirer des décisions.',
   localisation: 'Châteauroux, Indre (36)',
   email: 'charlyaugendre36@gmail.com',
-  linkedin: 'https://www.linkedin.com/in/[À COMPLÉTER]',
+  linkedin: 'https://www.linkedin.com/in/charly-augendre-289b22384/',
   // Dépose ton CV dans le dossier public/ et mets ici './cv-charly-augendre.pdf'
   // Laisse la chaîne vide pour masquer le bouton.
   cvUrl: '',
@@ -24,7 +24,7 @@ export const profil = {
 
 export const chiffresCles = [
   { valeur: '2', libelle: 'applications iOS conçues et développées' },
-  { valeur: '10 sem.', libelle: 'de stage en cabinet d\'expertise comptable' },
+  { valeur: '8 sem.', libelle: 'de stage en cabinet d\'expertise comptable' },
   { valeur: '3 ans', libelle: 'de pratique sportive assidue et de discipline' },
 ]
 
@@ -194,7 +194,7 @@ export const realisationsPro = [
   {
     titre: 'Stage en cabinet d\'expertise comptable',
     organisation: 'FIDUCIAL Expertise, La Châtre',
-    periode: 'BUT 2, [À COMPLÉTER : dates exactes du stage]',
+    periode: 'BUT 2, du 13 avril au 5 juin 2026, 8 semaines',
     role: 'Stagiaire en comptabilité',
     contexte:
       'Cabinet d\'expertise comptable de proximité accompagnant des TPE et PME locales. Le secteur vit une transformation numérique rapide, accélérée par la réforme de la facturation électronique, qui change la façon dont la donnée entre dans le cabinet.',
@@ -368,7 +368,7 @@ export const parcours = [
     lieu: 'Projet personnel',
   },
   {
-    date: '2026',
+    date: 'Avril - juin 2026',
     titre: 'Stage en cabinet d\'expertise comptable',
     lieu: 'FIDUCIAL Expertise, La Châtre',
   },
