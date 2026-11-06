@@ -111,34 +111,47 @@ export const passion = {
 // -------------------------------------------------------------
 export const realisationsUniversite = [
   {
-    titre: '[À COMPLÉTER] Intitulé de la SAÉ de BUT 2',
-    periode: '[À COMPLÉTER] Semestre 3 ou 4, année 2025-2026',
-    role: '[À COMPLÉTER] Ton rôle dans le groupe',
+    titre: 'SAÉ Créa Campus : création du restaurant PUMP',
+    periode: 'BUT 2, semestre 3, projet rendu en décembre 2025',
+    role: 'Membre d\'une équipe de 5 étudiants, intervenant sur l\'ensemble des volets',
     contexte:
-      '[À COMPLÉTER] Qui était le donneur d\'ordre, quel était le besoin, dans quel cadre la SAÉ a été menée, combien d\'étudiants dans le groupe.',
+      'La SAÉ Créa Campus nous demandait de construire un projet de création d\'entreprise complet, de l\'étude de marché jusqu\'aux aspects juridiques et financiers. En équipe de cinq, nous avons monté PUMP, un restaurant de bowls implanté à Tours, centré sur la transparence nutritionnelle. L\'idée est partie d\'un constat que nous vivions nous-mêmes : manger équilibré quand on est étudiant et sportif demande un temps et une information que personne n\'a vraiment.',
     objectifs: [
-      '[À COMPLÉTER] Objectif 1 fixé par l\'énoncé ou le commanditaire',
-      '[À COMPLÉTER] Objectif 2',
+      'Vérifier qu\'un besoin réel existait avant de dessiner l\'offre, plutôt que l\'inverse',
+      'Construire un concept différenciant et cohérent avec le marché local',
+      'Sécuriser le projet sur le plan juridique et démontrer la viabilité du modèle économique',
     ],
     demarche: [
-      '[À COMPLÉTER] Étape 1 de la méthode suivie',
-      '[À COMPLÉTER] Étape 2',
-      '[À COMPLÉTER] Étape 3',
+      'Analyse macro-environnementale du secteur de la restauration par la méthode PESTE',
+      'Enquête terrain qualitative : guide d\'entretien commun, sept entretiens semi-directifs de vingt à trente-six minutes, dont deux auprès de professionnels, une diététicienne et un chef cuisinier',
+      'Retranscription, analyse thématique et synthèse comparative des entretiens',
+      'Étude de la concurrence directe et indirecte, puis identification des facteurs clés de succès',
+      'Construction de l\'offre et des personas, puis choix de la forme juridique et cadrage du modèle économique',
     ],
     contribution:
-      '[À COMPLÉTER] Ce que tu as fait personnellement, en distinguant bien ta part du travail collectif.',
+      'J\'ai travaillé sur l\'ensemble des parties du dossier plutôt que sur un seul bloc : conduite et exploitation d\'entretiens, analyse de l\'environnement et de la concurrence, construction de l\'offre, et traitement des volets juridique et financier. Le choix de la SAS a été argumenté sur quatre critères, la souplesse statutaire, la limitation de la responsabilité aux apports, la flexibilité fiscale entre impôt sur les sociétés et option temporaire à l\'impôt sur le revenu, et la capacité d\'évolution vers un second établissement. J\'ai aussi veillé à la cohérence d\'ensemble du dossier, pour que le concept final découle réellement de ce que l\'enquête avait montré.',
     resultats: [
-      '[À COMPLÉTER] Livrable produit',
-      '[À COMPLÉTER] Résultat obtenu ou retour du commanditaire',
+      'Dossier complet de 56 pages couvrant l\'étude de marché, le concept, le juridique et le financier',
+      'Soutenance orale de 20 minutes devant le jury',
+      'Note de 14 à 15 sur 20 pour l\'ensemble dossier et oral',
     ],
     reflexion: {
-      reussi: '[À COMPLÉTER] Ce qui a bien fonctionné et pourquoi.',
-      ameliorer: '[À COMPLÉTER] Ce que tu referais autrement.',
-      savoirs: '[À COMPLÉTER] Connaissances mobilisées ou acquises.',
-      savoirFaire: '[À COMPLÉTER] Techniques et outils maîtrisés.',
-      savoirEtre: '[À COMPLÉTER] Posture, communication, travail en groupe.',
+      reussi:
+        'Avoir commencé par le terrain. Les sept entretiens ont fait émerger des attentes que nous n\'avions pas anticipées, notamment le fait que les gens ne cherchent pas des menus spécialisés mais de la lisibilité sur ce qu\'ils mangent. Cela a directement orienté le concept vers une carte courte et transparente au lieu d\'une offre large. Le travail en équipe de cinq a également tenu, chacun ayant pu intervenir sur plusieurs volets sans cloisonnement.',
+      ameliorer:
+        'La partie financière est restée au stade de l\'ébauche. Avec le recul, c\'est là que le dossier était le plus fragile : nous avons décrit un modèle économique de façon qualitative sans aller jusqu\'au chiffrage, compte de résultat prévisionnel, seuil de rentabilité et plan de financement. C\'est précisément ce qu\'un jury attend d\'un parcours comptable et financier, et c\'est ce que je traiterais en priorité aujourd\'hui. À cinq, nous aurions aussi gagné à répartir plus tôt des responsabilités claires sur chaque partie.',
+      savoirs:
+        'Méthodologie de l\'étude de marché, analyse PESTE, formes juridiques des sociétés et régimes fiscaux associés, structure d\'un modèle économique en restauration.',
+      savoirFaire:
+        'Construction d\'un guide d\'entretien, conduite d\'entretiens semi-directifs, analyse thématique de données qualitatives, rédaction argumentée avec appareil bibliographique sourcé, prise de parole en soutenance.',
+      savoirEtre:
+        'Travail en équipe sur un projet long, écoute en situation d\'entretien face à des professionnels, capacité à défendre un choix argumenté à l\'oral.',
     },
-    competences: ['[À COMPLÉTER] AC concernée'],
+    competences: [
+      'Analyser : intégrer l\'impact des enjeux sur l\'organisation',
+      'Décider : exploiter les données pour accompagner la prise de décision',
+      'Piloter : mener un projet collaboratif',
+    ],
   },
   {
     titre: 'Cas de contrôle de gestion : Ateliers Roche',
