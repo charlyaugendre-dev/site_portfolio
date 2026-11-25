@@ -9,7 +9,9 @@ export default function Footer() {
         </span>
         <span>
           <a href={`mailto:${profil.email}`}>{profil.email}</a>
-          {'  '}
+          <a href={`tel:${profil.telephoneLien}`} style={{ marginLeft: '20px' }}>
+            {profil.telephone}
+          </a>
           <a href={profil.linkedin} target="_blank" rel="noreferrer" style={{ marginLeft: '20px' }}>
             LinkedIn
           </a>

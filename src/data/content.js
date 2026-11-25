@@ -13,6 +13,8 @@ export const profil = {
     'Je me forme à la gestion comptable, fiscale et financière à l\'IUT de l\'Indre, et en parallèle je conçois et je lance mes propres applications iOS. Deux terrains différents, une même logique : comprendre les chiffres, les rendre fiables et en tirer des décisions.',
   localisation: 'Neuvy-Saint-Sépulchre (36), mobile sur Châteauroux et alentours',
   email: 'charly.augendre@etu.univ-orleans.fr',
+  telephone: '07 69 36 28 58',
+  telephoneLien: '+33769362858',
   linkedin: 'https://www.linkedin.com/in/charly-augendre-289b22384/',
   // Dépose ton CV dans le dossier public/ et mets ici './cv-charly-augendre.pdf'
   // Laisse la chaîne vide pour masquer le bouton.
@@ -165,7 +167,7 @@ export const realisationsPro = [
     periode: 'BUT 2, du 13 avril au 5 juin 2026, 8 semaines',
     role: 'Stagiaire en comptabilité',
     contexte:
-      'Cabinet d\'expertise comptable de proximité accompagnant des TPE et PME locales. Le secteur vit une transformation numérique rapide, accélérée par la réforme de la facturation électronique, qui change la façon dont la donnée entre dans le cabinet.',
+      'Cabinet d\'expertise comptable de proximité accompagnant des TPE et PME locales. Le secteur vit une transformation numérique rapide, accélérée par la réforme de la facturation électronique, qui change la façon dont la donnée entre dans le cabinet. J\'y suis arrivé en pensant que la reconnaissance automatique avait déjà remplacé la saisie. La réalité est plus nuancée : dès qu\'une pièce n\'est pas correctement reconnue par le logiciel, elle est reprise entièrement à la main. Cette découverte a orienté tout mon stage et la problématique de mon rapport.',
     objectifs: [
       'Participer à la chaîne comptable complète sur des dossiers clients réels',
       'Comprendre comment le cabinet sécurise la fiabilité de l\'information produite',
@@ -186,15 +188,15 @@ export const realisationsPro = [
     ],
     reflexion: {
       reussi:
-        'Mon autonomie est montée vite. Au bout de quelques semaines, je traitais mes dossiers sans avoir besoin qu\'on repasse derrière chaque écriture.',
+        'Avoir posé beaucoup de questions plutôt que de deviner. Je suis arrivé avec le plan comptable général appris en cours, alors que le cabinet travaille avec des plans adaptés à chaque client, avec des comptes de classe 6 et 7 beaucoup plus détaillés. Plutôt que d\'imputer au jugé, j\'allais systématiquement demander à ma tutrice ou au collaborateur du dossier quel compte utiliser. Cela m\'a coûté du temps au début, mais c\'est ce qui a permis que mon travail soit fiable, et le cabinet a retenu de mon passage que j\'étais sérieux et rigoureux.',
       ameliorer:
-        'J\'ai d\'abord cherché à aller vite plutôt qu\'à comprendre la logique du dossier. J\'ai compris qu\'en comptabilité, une saisie rapide mais mal rattachée coûte bien plus de temps à corriger.',
+        'J\'ai redemandé les mêmes informations plusieurs fois. Avec le recul, j\'aurais dû me constituer dès les premiers jours une fiche de correspondance par client, reprenant les comptes spécifiques et leur usage. J\'aurais gagné en autonomie plus vite et j\'aurais moins sollicité des collaborateurs déjà chargés. C\'est le réflexe que je prendrai dès le premier jour de mon prochain stage.',
       savoirs:
-        'Plan comptable, mécanique de la TVA, obligations déclaratives, enjeux de la facturation électronique.',
+        'Plan comptable général et plans adaptés par client, mécanique de la TVA, obligations déclaratives, limites réelles de la reconnaissance automatique de pièces.',
       savoirFaire:
-        'Saisie, rapprochement bancaire, lettrage, préparation d\'une CA3, utilisation d\'un logiciel métier et d\'une GED.',
+        'Saisie, rapprochement bancaire, lettrage, préparation d\'une CA3, contrôle croisé d\'un calcul de TVA entre tableur et logiciel métier, utilisation d\'une GED.',
       savoirEtre:
-        'Discrétion sur des données confidentielles, rigueur, capacité à demander une validation au bon moment.',
+        'Discrétion sur des données confidentielles, rigueur, capacité à demander une validation au bon moment plutôt qu\'à avancer dans le doute.',
     },
     competences: [
       'Produire : contrôler et sécuriser l\'information comptable et fiscale',
@@ -207,38 +209,40 @@ export const realisationsPro = [
     periode: 'Depuis 2025, lancement sur l\'App Store en 2026',
     role: 'Fondateur, de l\'idée à la commercialisation',
     contexte:
-      'Les applications de suivi nutritionnel existantes visent le grand public. J\'ai identifié un besoin non couvert chez les pratiquants réguliers de musculation, qui cherchent de la précision et une expérience soignée plutôt qu\'un outil généraliste.',
+      'Le marché du suivi nutritionnel est dominé par quelques applications valorisées à plusieurs centaines de millions d\'euros, toutes positionnées sur le grand public. En tant que pratiquant régulier, je cherchais un outil simple, rapide et soigné pour suivre mes calories et mes macronutriments, et je ne le trouvais pas. Un besoin que je vivais moi-même, sur un marché dont la taille prouvait l\'appétence : les deux conditions qui m\'ont décidé à me lancer.',
     objectifs: [
       'Concevoir et publier une application de suivi nutritionnel premium sur l\'App Store',
-      'Acquérir les premiers utilisateurs payants sans budget publicitaire',
+      'Obtenir la validation d\'Apple, puis les premiers abonnés payants sans budget publicitaire',
     ],
     demarche: [
       'Définition du positionnement et de l\'identité de marque autour de l\'exactitude',
-      'Développement de l\'application et conception de l\'interface',
-      'Publication sur l\'App Store et mise en place du modèle d\'abonnement',
-      'Acquisition par le contenu, en intégrant l\'application à ma ligne éditoriale',
+      'Développement de l\'application en m\'appuyant sur des outils d\'IA générative, chaque fonctionnalité et chaque choix d\'interface venant de moi',
+      'Optimisation du coût par requête des fonctions d\'intelligence artificielle, pour concilier précision des réponses et viabilité du modèle économique',
+      'Internationalisation complète de l\'application, bloc par bloc, pour l\'ouvrir au marché anglophone',
+      'Soumission à Apple, corrections successives après quatre refus, puis mise en ligne',
     ],
     contribution:
-      'J\'ai porté le projet seul : positionnement, développement, identité visuelle, mise en ligne et acquisition.',
+      'J\'ai porté le projet seul, de l\'idée à la commercialisation : positionnement, conception de chaque écran, développement, identité visuelle, modèle d\'abonnement et mise en ligne. N\'étant pas développeur de formation, j\'ai construit l\'application avec des outils d\'IA générative, ce qui m\'a demandé de comprendre la structure de mon propre code plutôt que d\'appliquer aveuglément ce qu\'on me proposait. J\'ai exigé de savoir pourquoi chaque modification était faite avant de la valider.',
     resultats: [
-      'Application publiée et disponible sur l\'App Store',
-      'Premiers abonnés payants acquis uniquement par le contenu organique',
+      'Application publiée sur l\'App Store après quatre refus successifs d\'Apple',
+      'Premiers abonnés payants acquis sans aucun budget publicitaire',
+      'Application disponible en français et en anglais',
     ],
     reflexion: {
       reussi:
-        'Le fait d\'avoir une audience avant d\'avoir un produit. J\'ai pu valider le besoin auprès de vraies personnes plutôt que de supposer.',
+        'Avoir gardé la main sur un projet technique que je ne maîtrisais pas au départ. En vérifiant systématiquement la logique de ce que l\'outil me proposait, j\'ai repéré plusieurs fois des erreurs dans son raisonnement avant de les intégrer. J\'ai aussi fixé des règles écrites que l\'outil devait respecter, et procédé bloc par bloc sur les chantiers sensibles comme la traduction, pour qu\'aucune modification non souhaitée ne passe. C\'est exactement la posture qu\'on attend face à un logiciel comptable : l\'outil propose, c\'est à l\'humain de contrôler.',
       ameliorer:
-        'J\'ai passé trop de temps sur des détails d\'identité visuelle avant d\'avoir confronté le produit aux utilisateurs. La prochaine fois, je sortirai une version plus tôt.',
+        'La première version a été construite sans méthode. Je modifiais le code en bloc, sans outillage adapté, ce qui multipliait les anomalies : j\'ai passé plus de huit heures d\'affilée sur un seul bug de connexion. En adoptant un environnement de travail adapté et des règles claires, j\'ai avancé plusieurs fois plus vite sur la suite. La leçon est la même qu\'en gestion : le temps investi dans la méthode au départ se récupère largement ensuite.',
       savoirs:
-        'Modèle économique par abonnement, cadre de la micro-entreprise et obligations déclaratives associées.',
+        'Modèle économique par abonnement, cadre de la micro-entreprise et obligations déclaratives associées, conditions de publication sur l\'App Store, structure de coûts d\'un service faisant appel à l\'intelligence artificielle.',
       savoirFaire:
-        'Développement mobile, conception d\'interface, suivi d\'indicateurs d\'acquisition.',
+        'Conception d\'interface, pilotage d\'outils d\'IA générative avec des consignes contrôlées, optimisation du coût unitaire d\'un traitement automatisé, gestion de la synchronisation et de la sauvegarde de données utilisateurs, internationalisation d\'une application.',
       savoirEtre:
-        'Prise d\'initiative, acceptation de l\'incertitude, capacité à décider sans avoir toutes les informations.',
+        'Patience et persévérance face à des refus successifs, esprit critique face à une réponse automatisée, rigueur dans les tests, refus de laisser un point incompris derrière moi.',
     },
     competences: [
       'Décider : exploiter les données pour accompagner la prise de décision',
-      'Piloter : améliorer les relations entre les parties prenantes',
+      'Piloter : conduire un projet de bout en bout',
     ],
   },
 ]
@@ -303,22 +307,22 @@ export const pointsForts = {
 // -------------------------------------------------------------
 export const ouverture = {
   chapo:
-    'Travailler pour une audience et des utilisateurs qui ne sont pas les miens m\'a obligé à sortir de mes repères. C\'est sans doute ce qui m\'a le plus fait progresser sur la façon de m\'adresser aux autres.',
+    'Concevoir un produit pour des gens que je ne connais pas m\'a obligé à sortir de mes repères. C\'est ce qui m\'a le plus fait progresser sur la façon de m\'adresser aux autres.',
   blocs: [
     {
-      titre: 'S\'adresser à une audience étrangère',
+      titre: 'Un produit accessible partout',
       texte:
-        'La majorité des gens qui me suivent sont américains. Les codes ne sont pas les mêmes : le rapport au discours direct, les références culturelles, le rythme attendu, les unités de mesure. J\'ai dû réapprendre à écrire pour eux plutôt que de traduire ce que j\'aurais dit en français.',
+        'Une application publiée sur l\'App Store n\'a pas de frontière. Dès la mise en ligne, LUCIDE pouvait être téléchargée par des gens dont je ne connais ni la langue, ni les habitudes alimentaires, ni les unités de mesure. On ne choisit pas son public, on le découvre.',
     },
     {
-      titre: 'Un produit utilisé dans plusieurs pays',
+      titre: 'Mon usage n\'est pas la référence',
       texte:
-        'Une application publiée sur l\'App Store est accessible partout. Cela impose de penser l\'interface, les unités et le vocabulaire pour des gens dont je ne connais ni la langue ni les habitudes, et d\'accepter que mon usage personnel ne soit pas la référence.',
+        'J\'utilise moi-même l\'application tous les jours, ce qui est à la fois un avantage et un piège. Ce qui me paraît évident ne l\'est pas pour quelqu\'un qui ne s\'entraîne pas comme moi, ne mange pas comme moi et n\'a pas les mêmes repères chiffrés. Concevoir pour les autres, c\'est accepter de ne pas être le modèle.',
     },
     {
-      titre: 'Travailler avec des profils différents',
+      titre: 'Travailler avec des profils éloignés du mien',
       texte:
-        'En cabinet comme en intérim en milieu industriel, j\'ai travaillé avec des personnes de parcours, d\'âges et de métiers très éloignés du mien. J\'y ai appris à adapter mon niveau de langage et à ne jamais supposer que mon interlocuteur partage mes références.',
+        'En cabinet, les dossiers venaient du BTP, de la restauration, de l\'artisanat, de la santé libérale et du commerce, donc de gens dont je ne connaissais ni le métier ni le vocabulaire. En milieu industriel, j\'ai travaillé avec des personnes d\'âges et de parcours très différents du mien. Dans les deux cas, il a fallu adapter ma façon de parler plutôt qu\'attendre qu\'on s\'adapte à moi.',
     },
     {
       titre: 'Ce que j\'en retiens',

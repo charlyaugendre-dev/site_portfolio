@@ -80,6 +80,9 @@ export default function Accueil() {
             <a className="action action-solid" href={`mailto:${profil.email}`}>
               {profil.email}
             </a>
+            <a className="action" href={`tel:${profil.telephoneLien}`}>
+              {profil.telephone}
+            </a>
             <a className="action" href={profil.linkedin} target="_blank" rel="noreferrer">
               Mon profil LinkedIn
             </a>
