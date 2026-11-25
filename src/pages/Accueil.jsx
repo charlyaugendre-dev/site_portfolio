@@ -24,14 +24,10 @@ export default function Accueil() {
           <p className="hero-role">{profil.titre}</p>
           <p className="hero-sub">{profil.sousTitre}</p>
 
-          <div className="hero-grid">
+          <div className={profil.photoUrl ? 'hero-grid' : ''}>
             <p className="hero-note">{profil.accroche}</p>
-            {profil.photoUrl ? (
+            {profil.photoUrl && (
               <img className="portrait" src={profil.photoUrl} alt={`${profil.prenom} ${profil.nom}`} />
-            ) : (
-              <div className="portrait portrait-vide">
-                Photo à déposer dans public/ puis à renseigner dans content.js
-              </div>
             )}
           </div>
 

@@ -1,7 +1,6 @@
 // =============================================================
 //  TOUT LE CONTENU DU SITE EST DANS CE FICHIER.
 //  Pour modifier un texte, tu modifies ici, pas dans les pages.
-//  Les marqueurs [À COMPLÉTER] signalent ce qu'il te reste à remplir.
 // =============================================================
 
 export const profil = {
@@ -10,7 +9,7 @@ export const profil = {
   titre: 'Étudiant en BUT 3 GEA, parcours gestion comptable, fiscale et financière',
   sousTitre: 'Fondateur d\'une application mobile iOS',
   accroche:
-    'Je me forme à la gestion comptable, fiscale et financière à l\'IUT de l\'Indre, et en parallèle je conçois et je lance mes propres applications iOS. Deux terrains différents, une même logique : comprendre les chiffres, les rendre fiables et en tirer des décisions.',
+    'Je me forme à la gestion comptable, fiscale et financière à l\'IUT de l\'Indre, et en parallèle j\'ai conçu et publié ma propre application iOS. Deux terrains différents, une même logique : comprendre les chiffres, les rendre fiables et en tirer des décisions.',
   localisation: 'Neuvy-Saint-Sépulchre (36), mobile sur Châteauroux et alentours',
   email: 'charly.augendre@etu.univ-orleans.fr',
   telephone: '07 69 36 28 58',
@@ -53,7 +52,7 @@ export const apropos = {
       cle: 'La méthode',
       titre: 'Apprendre vite, livrer vraiment',
       texte:
-        'Je n\'avais aucune base en développement avant de commencer. J\'ai appris en construisant, en me trompant et en recommençant. C\'est la compétence dont je suis le plus fier : être capable de partir d\'un sujet que je ne maîtrise pas et d\'arriver à un résultat livré, utilisé par de vraies personnes.',
+        'Je n\'avais presque aucune base en développement avant de commencer. J\'ai appris en construisant, en me trompant et en recommençant. C\'est la compétence dont je suis le plus fier : être capable de partir d\'un sujet que je ne maîtrise pas et d\'arriver à un résultat livré, utilisé par de vraies personnes.',
     },
     {
       cle: 'Les valeurs',
@@ -87,7 +86,7 @@ export const passion = {
     {
       titre: 'Tenir dans la durée',
       texte:
-        'Dix ans d\'entraînement sans interruption, dont plus de trois en salle, sans que personne ne me le demande. C\'est ce qui m\'a appris à ne pas lâcher un projet au premier mur, que ce soit un dossier ou une application.',
+        'Sept ans d\'entraînement sans interruption, dont plus de trois en salle, sans que personne ne me le demande. C\'est ce qui m\'a appris à ne pas lâcher un projet au premier mur, que ce soit un dossier ou une application.',
     },
     {
       titre: 'Mesurer au lieu de supposer',
@@ -109,13 +108,12 @@ export const passion = {
 
 // -------------------------------------------------------------
 //  RÉALISATIONS À L'UNIVERSITÉ (SAÉ de BUT 2)
-//  ⚠️ À compléter avec la SAÉ de BUT 2 que tu veux mettre en avant.
 // -------------------------------------------------------------
 export const realisationsUniversite = [
   {
     titre: 'SAÉ Créa Campus : création du restaurant PUMP',
     periode: 'BUT 2, semestre 3, projet rendu en décembre 2025',
-    role: 'Membre d\'une équipe de 5 étudiants, intervenant sur l\'ensemble des volets',
+    role: 'Membre d\'une équipe de cinq étudiants, intervenant sur l\'ensemble des volets',
     contexte:
       'La SAÉ Créa Campus nous demandait de construire un projet de création d\'entreprise complet, de l\'étude de marché jusqu\'aux aspects juridiques et financiers. En équipe de cinq, nous avons monté PUMP, un restaurant de bowls implanté à Tours, centré sur la transparence nutritionnelle. L\'idée est partie d\'un constat que nous vivions nous-mêmes : manger équilibré quand on est étudiant et sportif demande un temps et une information que personne n\'a vraiment.',
     objectifs: [
@@ -131,7 +129,7 @@ export const realisationsUniversite = [
       'Construction de l\'offre et des personas, puis choix de la forme juridique et cadrage du modèle économique',
     ],
     contribution:
-      'J\'ai travaillé sur l\'ensemble des parties du dossier plutôt que sur un seul bloc : conduite et exploitation d\'entretiens, analyse de l\'environnement et de la concurrence, construction de l\'offre, et traitement des volets juridique et financier. Le choix de la SAS a été argumenté sur quatre critères, la souplesse statutaire, la limitation de la responsabilité aux apports, la flexibilité fiscale entre impôt sur les sociétés et option temporaire à l\'impôt sur le revenu, et la capacité d\'évolution vers un second établissement. J\'ai aussi veillé à la cohérence d\'ensemble du dossier, pour que le concept final découle réellement de ce que l\'enquête avait montré.',
+      'J\'ai travaillé sur l\'ensemble des parties du dossier plutôt que sur un seul bloc : conduite et exploitation d\'entretiens, analyse de l\'environnement et de la concurrence, construction de l\'offre, et traitement des volets juridique et financier. Le choix de la SAS a été argumenté sur quatre critères : la souplesse statutaire, la limitation de la responsabilité aux apports, la flexibilité fiscale entre impôt sur les sociétés et option temporaire à l\'impôt sur le revenu, et la capacité d\'évolution vers un second établissement. J\'ai aussi veillé à la cohérence d\'ensemble du dossier, pour que le concept final découle réellement de ce que l\'enquête avait montré.',
     resultats: [
       'Dossier complet de 56 pages couvrant l\'étude de marché, le concept, le juridique et le financier',
       'Soutenance orale de 20 minutes devant le jury',
@@ -209,7 +207,7 @@ export const realisationsPro = [
     periode: 'Depuis 2025, lancement sur l\'App Store en 2026',
     role: 'Fondateur, de l\'idée à la commercialisation',
     contexte:
-      'Le marché du suivi nutritionnel est dominé par quelques applications valorisées à plusieurs centaines de millions d\'euros, toutes positionnées sur le grand public. En tant que pratiquant régulier, je cherchais un outil simple, rapide et soigné pour suivre mes calories et mes macronutriments, et je ne le trouvais pas. Un besoin que je vivais moi-même, sur un marché dont la taille prouvait l\'appétence : les deux conditions qui m\'ont décidé à me lancer.',
+      'Le marché du suivi nutritionnel est dominé par quelques applications valorisées à plusieurs centaines de millions d\'euros, toutes positionnées sur le grand public. En tant que pratiquant régulier, je cherchais un outil simple, rapide et soigné pour suivre mes calories et mes macronutriments, et je ne le trouvais pas. Un besoin que je vivais moi-même, sur un marché dont la taille atteste la demande : les deux conditions qui m\'ont décidé à me lancer.',
     objectifs: [
       'Concevoir et publier une application de suivi nutritionnel premium sur l\'App Store',
       'Obtenir la validation d\'Apple, puis les premiers abonnés payants sans budget publicitaire',
@@ -352,7 +350,7 @@ export const parcours = [
     lieu: 'FIDUCIAL Expertise, La Châtre',
   },
   {
-    date: 'Depuis 2024',
+    date: '2024 - 2025',
     titre: 'Opérateur en intérim pendant les vacances scolaires',
     lieu: 'Barilla, Montierchaume',
   },
