@@ -133,7 +133,7 @@ export const realisationsUniversite = [
     resultats: [
       'Dossier complet de 56 pages couvrant l\'étude de marché, le concept, le juridique et le financier',
       'Soutenance orale de 20 minutes devant le jury',
-      'Note de 14 à 15 sur 20 pour l\'ensemble dossier et oral',
+      'Note de 14,5 sur 20 pour l\'ensemble dossier et soutenance',
     ],
     reflexion: {
       reussi:
@@ -291,6 +291,7 @@ export const pointsForts = {
     'Word : mise en forme avancée, modèles, sommaires',
     'PowerPoint',
     'Logiciels métiers : SIS-IA, Ex-Libris, GED',
+    'Outils d\'IA générative : usage encadré et contrôle des résultats',
     'VS Code, React, Git',
   ],
   langues: [
