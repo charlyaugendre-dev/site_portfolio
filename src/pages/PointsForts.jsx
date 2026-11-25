@@ -6,7 +6,7 @@ export default function PointsForts() {
     <section className="sheet wrap">
       <PageHead
         titre="Mes points forts"
-        chapo="Trois compétences issues du référentiel, transposées à un contexte professionnel, et trois savoir-être qui les accompagnent."
+        chapo="Trois apprentissages critiques du référentiel BUT 3 GC2F sur lesquels je me sens le plus solide, chacun adossé à une réalisation concrète, et trois savoir-être qui les accompagnent."
       />
 
       <div style={{ marginBottom: '64px' }}>

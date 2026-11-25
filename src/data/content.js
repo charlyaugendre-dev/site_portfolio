@@ -141,7 +141,7 @@ export const realisationsUniversite = [
       reussi:
         'Avoir commencé par le terrain. Les sept entretiens ont fait émerger des attentes que nous n\'avions pas anticipées, notamment le fait que les gens ne cherchent pas des menus spécialisés mais de la lisibilité sur ce qu\'ils mangent. Cela a directement orienté le concept vers une carte courte et transparente au lieu d\'une offre large. Le travail en équipe de cinq a également tenu, chacun ayant pu intervenir sur plusieurs volets sans cloisonnement.',
       ameliorer:
-        'La partie financière est restée au stade de l\'ébauche. Avec le recul, c\'est là que le dossier était le plus fragile : nous avons décrit un modèle économique de façon qualitative sans aller jusqu\'au chiffrage, compte de résultat prévisionnel, seuil de rentabilité et plan de financement. C\'est précisément ce qu\'un jury attend d\'un parcours comptable et financier, et c\'est ce que je traiterais en priorité aujourd\'hui. À cinq, nous aurions aussi gagné à répartir plus tôt des responsabilités claires sur chaque partie.',
+        'La partie financière est restée au stade de l\'ébauche. Avec le recul, c\'est là que le dossier était le plus fragile : nous avons décrit le modèle économique de façon qualitative, sans jamais le chiffrer. Ni compte de résultat prévisionnel, ni seuil de rentabilité, ni plan de financement, alors que c\'est exactement ce qu\'on attend d\'un parcours comptable et financier, et ce qui aurait permis de dire si le projet tenait vraiment. C\'est ce que je traiterais en priorité aujourd\'hui. Nous aurions aussi gagné à nous répartir des rôles clairs dès le départ : à cinq, en avançant sans attribution précise, nous avons perdu en efficacité et certaines parties ont été reprises plusieurs fois.',
       savoirs:
         'Méthodologie de l\'étude de marché, analyse PESTE, formes juridiques des sociétés et régimes fiscaux associés, structure d\'un modèle économique en restauration.',
       savoirFaire:
@@ -150,9 +150,9 @@ export const realisationsUniversite = [
         'Travail en équipe sur un projet long, écoute en situation d\'entretien face à des professionnels, capacité à défendre un choix argumenté à l\'oral.',
     },
     competences: [
-      'Analyser : intégrer l\'impact des enjeux sur l\'organisation',
-      'Décider : exploiter les données pour accompagner la prise de décision',
-      'Piloter : mener un projet collaboratif',
+      'AC 31.01 Intégrer l\'impact des enjeux sur l\'organisation',
+      'AC 33.02 Mener un projet collaboratif',
+      'AC 34.02 Appliquer les règles comptables, fiscales et sociales adaptées à l\'organisation',
     ],
   },
 ]
@@ -199,8 +199,8 @@ export const realisationsPro = [
         'Discrétion sur des données confidentielles, rigueur, capacité à demander une validation au bon moment plutôt qu\'à avancer dans le doute.',
     },
     competences: [
-      'Produire : contrôler et sécuriser l\'information comptable et fiscale',
-      'Analyser : identifier et évaluer les processus de l\'organisation',
+      'AC 34.02 Appliquer les règles comptables, fiscales et sociales adaptées à l\'organisation',
+      'AC 34.04 Sécuriser l\'information comptable, fiscale et sociale produite',
     ],
   },
   {
@@ -241,8 +241,8 @@ export const realisationsPro = [
         'Patience et persévérance face à des refus successifs, esprit critique face à une réponse automatisée, rigueur dans les tests, refus de laisser un point incompris derrière moi.',
     },
     competences: [
-      'Décider : exploiter les données pour accompagner la prise de décision',
-      'Piloter : conduire un projet de bout en bout',
+      'AC 32.03 Participer à la prise de décision en fonction des contraintes identifiées',
+      'AC 32.04 Élaborer des mesures préventives de minimisation des risques',
     ],
   },
 ]
@@ -253,25 +253,25 @@ export const realisationsPro = [
 export const pointsForts = {
   competences: [
     {
-      titre: 'Production et fiabilisation de l\'information comptable et fiscale',
-      reference: 'Compétence « Produire », niveau 2 du référentiel GC2F',
+      titre: 'Sécuriser l\'information comptable, fiscale et sociale produite',
+      reference: 'C4, AC 34.04',
       texte:
-        'Traiter la chaîne complète, de la pièce justificative à la déclaration de TVA, en contrôlant la cohérence à chaque étape. Acquis en cabinet sur des dossiers clients réels.',
-      preuve: 'Stage chez FIDUCIAL Expertise',
+        'Ne jamais transmettre un chiffre sans l\'avoir vérifié par un autre chemin. En cabinet, je recalculais la TVA sur tableur avant de la confronter aux soldes du logiciel, ce qui m\'a permis de repérer des erreurs d\'imputation avant qu\'elles ne partent dans une déclaration.',
+      preuve: 'Stage chez FIDUCIAL Expertise, environ 50 dossiers clients',
     },
     {
-      titre: 'Exploitation des données pour aider à décider',
-      reference: 'Compétence « Décider », niveau 3 du référentiel',
+      titre: 'Élaborer des mesures préventives de minimisation des risques',
+      reference: 'C2, AC 32.04',
       texte:
-        'Construire des prévisions et des budgets, lire des écarts, suivre des indicateurs et en tirer une recommandation plutôt qu\'un simple constat.',
-      preuve: 'Travaux de contrôle de gestion et pilotage de mon application',
+        'Anticiper ce qui peut mal tourner plutôt que de le corriger après coup. Sur mon application, la sauvegarde et la synchronisation des données utilisateurs ont été refaites plusieurs fois, en cherchant à couvrir toutes les situations possibles plutôt que le cas nominal.',
+      preuve: 'Conception et mise en ligne de LUCIDE',
     },
     {
-      titre: 'Conduite de projet de bout en bout',
-      reference: 'Compétence « Piloter », niveau 3 du référentiel',
+      titre: 'Mener un projet collaboratif',
+      reference: 'C3, AC 33.02',
       texte:
-        'Mener un projet de l\'idée au livrable : cadrer le besoin, planifier, arbitrer, livrer et mesurer. En groupe comme en autonomie complète.',
-      preuve: 'Projet collectif Créa Campus et lancement de mon application',
+        'Faire avancer un projet long à plusieurs, en intervenant sur tous les volets plutôt qu\'en restant dans son couloir : enquête terrain, analyse de marché, cadrage juridique et financier, puis défense du travail à l\'oral.',
+      preuve: 'SAÉ Créa Campus, projet PUMP en équipe de cinq',
     },
   ],
   savoirEtre: [
