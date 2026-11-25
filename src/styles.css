@@ -325,6 +325,42 @@ p:last-child { margin-bottom: 0; }
 .step .what { font-weight: 500; }
 .step .where { font-size: 14.5px; color: var(--muted); }
 
+/* ---------------- Esprit d'entreprendre ---------------- */
+.esprit { margin-bottom: 64px; }
+
+.echelle { font-size: 13.5px; color: var(--muted); margin-bottom: 26px; }
+
+.meta {
+  display: grid;
+  grid-template-columns: 1fr 150px;
+  gap: 32px;
+  align-items: start;
+  padding: 20px 0;
+  border-top: 1px solid var(--rule);
+}
+
+.meta-cat {
+  font-size: 12.5px;
+  color: var(--blue);
+  font-weight: 500;
+  margin-bottom: 3px;
+}
+
+.jauge { padding-top: 22px; }
+
+.jauge span { display: block; font-size: 12.5px; color: var(--muted); margin-top: 7px; }
+
+.pip {
+  display: inline-block;
+  width: 22px;
+  height: 5px;
+  margin-right: 3px;
+  background: var(--rule);
+  border-radius: 1px;
+}
+
+.pip[data-on] { background: var(--blue); }
+
 /* ---------------- Divers ---------------- */
 .cols { display: grid; grid-template-columns: 1fr 1fr; gap: 44px; }
 
@@ -363,6 +399,8 @@ p:last-child { margin-bottom: 0; }
   .sheet { padding: 40px 0 74px; }
   .hero-grid { grid-template-columns: 1fr; gap: 28px; }
   .portrait { max-width: 220px; }
+  .meta { grid-template-columns: 1fr; gap: 12px; }
+  .jauge { padding-top: 0; }
   .index-item { grid-template-columns: 1fr; gap: 4px; }
   .index-item .desc { text-align: left; }
   .releve-line { gap: 16px; }

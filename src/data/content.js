@@ -302,6 +302,61 @@ export const pointsForts = {
 }
 
 // -------------------------------------------------------------
+//  ESPRIT D'ENTREPRENDRE (référentiel Pépite)
+//  Les 4 niveaux sont : de base, intermédiaire, confirmé, expert.
+//  Ajuste le champ "niveau" (1 à 4) selon ton auto-évaluation.
+// -------------------------------------------------------------
+export const espritEntreprendre = {
+  intro:
+    'Créer et publier une application, puis gérer ma micro-entreprise, m\'a fait travailler des compétences qui ne figurent pas dans une maquette de cours. Je les situe ici sur le référentiel Esprit d\'entreprendre, chacune adossée à une situation précise.',
+  echelle: ['De base', 'Intermédiaire', 'Confirmé', 'Expert'],
+  items: [
+    {
+      categorie: 'Avoir une posture entrepreneuriale',
+      nom: 'Être autonome',
+      niveau: 3,
+      preuve:
+        'J\'ai mené LUCIDE seul, de la première idée à la mise en ligne, sans associé, sans équipe et sans personne pour fixer les échéances à ma place.',
+    },
+    {
+      categorie: 'Avoir une posture entrepreneuriale',
+      nom: 'Être motivé et persévérer',
+      niveau: 3,
+      preuve:
+        'Quatre refus successifs d\'Apple avant la publication, avec plusieurs jours d\'attente entre chaque retour. Et une nuit entière passée sur un seul bug de connexion plutôt que de contourner le problème.',
+    },
+    {
+      categorie: 'Faire émerger une opportunité d\'entreprendre',
+      nom: 'Identifier une opportunité',
+      niveau: 2,
+      preuve:
+        'Un marché dominé par des applications valorisées à plusieurs centaines de millions d\'euros, toutes grand public, et un besoin que je vivais moi-même sans trouver de réponse satisfaisante.',
+    },
+    {
+      categorie: 'Construire un projet',
+      nom: 'Construire le modèle d\'affaires',
+      niveau: 2,
+      preuve:
+        'Modèle par abonnement, et optimisation du coût unitaire de chaque requête d\'intelligence artificielle pour que la marge tienne à mesure que les utilisateurs arrivent.',
+    },
+    {
+      categorie: 'Construire un projet',
+      nom: 'Gérer l\'ambiguïté, l\'incertitude et les risques',
+      niveau: 2,
+      preuve:
+        'La sauvegarde et la synchronisation des données utilisateurs ont été reprises plusieurs fois, pour couvrir les cas de panne et de perte de connexion plutôt que le seul fonctionnement nominal.',
+    },
+    {
+      categorie: 'Agir et lancer un projet',
+      nom: 'Apprendre de ses expériences',
+      niveau: 3,
+      preuve:
+        'La première version a été construite sans méthode, au prix de nombreuses anomalies. J\'en ai tiré un cadre de travail écrit et une progression bloc par bloc, qui m\'ont fait avancer bien plus vite ensuite.',
+    },
+  ],
+}
+
+// -------------------------------------------------------------
 //  PAGE BONUS : OUVERTURE
 // -------------------------------------------------------------
 export const ouverture = {

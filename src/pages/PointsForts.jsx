@@ -1,5 +1,5 @@
 import PageHead from '../components/PageHead.jsx'
-import { pointsForts } from '../data/content.js'
+import { pointsForts, espritEntreprendre } from '../data/content.js'
 
 export default function PointsForts() {
   return (
@@ -29,6 +29,34 @@ export default function PointsForts() {
             <div className="side">{s.titre}</div>
             <div className="body">
               <p>{s.texte}</p>
+            </div>
+          </div>
+        ))}
+      </div>
+
+      <div className="esprit">
+        <h2>Esprit d'entreprendre</h2>
+        <p className="prose muted" style={{ marginBottom: '10px' }}>
+          {espritEntreprendre.intro}
+        </p>
+        <div className="echelle">
+          Échelle du référentiel : {espritEntreprendre.echelle.join(', ').toLowerCase()}.
+        </div>
+
+        {espritEntreprendre.items.map((it, i) => (
+          <div className="meta" key={i}>
+            <div>
+              <div className="meta-cat">{it.categorie}</div>
+              <h3>{it.nom}</h3>
+              <p className="muted" style={{ margin: 0, fontSize: '15px' }}>
+                {it.preuve}
+              </p>
+            </div>
+            <div className="jauge" title={espritEntreprendre.echelle[it.niveau - 1]}>
+              {[1, 2, 3, 4].map((n) => (
+                <i className="pip" key={n} data-on={n <= it.niveau ? 'x' : undefined} />
+              ))}
+              <span>{espritEntreprendre.echelle[it.niveau - 1]}</span>
             </div>
           </div>
         ))}
