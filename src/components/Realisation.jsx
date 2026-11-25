@@ -7,6 +7,22 @@ export default function Realisation({ item }) {
         {item.periode}. {item.role}.
       </div>
 
+      {item.visuels?.length > 0 && (
+        <div className={item.visuelsPortrait ? 'visuels visuels-portrait' : 'visuels'}>
+          {item.visuels.map((v, i) => (
+            <figure key={i}>
+              <img
+                src={v.src}
+                alt={v.legende}
+                loading="lazy"
+                style={v.position ? { objectPosition: v.position } : undefined}
+              />
+              <figcaption>{v.legende}</figcaption>
+            </figure>
+          ))}
+        </div>
+      )}
+
       <div className="row">
         <div className="side">Contexte</div>
         <div className="body">

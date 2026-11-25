@@ -325,6 +325,37 @@ p:last-child { margin-bottom: 0; }
 .step .what { font-weight: 500; }
 .step .where { font-size: 14.5px; color: var(--muted); }
 
+/* ---------------- Visuels d'une réalisation ---------------- */
+.visuels {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+  gap: 20px;
+  margin-bottom: 32px;
+}
+
+.visuels figure { margin: 0; }
+
+.visuels img {
+  width: 100%;
+  aspect-ratio: 4 / 3;
+  object-fit: cover;
+  display: block;
+  background: var(--wash);
+}
+
+.visuels-portrait { grid-template-columns: repeat(auto-fit, minmax(190px, 1fr)); }
+
+.visuels-portrait img { aspect-ratio: 3 / 4; }
+
+.visuels figcaption {
+  font-size: 13px;
+  line-height: 1.45;
+  color: var(--muted);
+  padding-top: 9px;
+  border-top: 1px solid var(--rule);
+  margin-top: 9px;
+}
+
 /* ---------------- Esprit d'entreprendre ---------------- */
 .esprit { margin-bottom: 64px; }
 

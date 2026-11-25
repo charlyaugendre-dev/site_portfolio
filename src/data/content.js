@@ -114,6 +114,20 @@ export const realisationsUniversite = [
     titre: 'SAÉ Créa Campus : création du restaurant PUMP',
     periode: 'BUT 2, semestre 3, projet rendu en décembre 2025',
     role: 'Membre d\'une équipe de cinq étudiants, intervenant sur l\'ensemble des volets',
+    visuels: [
+      {
+        src: './pump-devanture.jpg',
+        position: 'center 22%',
+        legende:
+          'Visuel de concept produit pour le dossier : devanture et identité de l\'enseigne.',
+      },
+      {
+        src: './pump-bowls.jpg',
+        position: 'center 40%',
+        legende:
+          'La gamme en quatre tailles, traduction visuelle du parti pris d\'une carte courte et lisible issu de l\'enquête terrain.',
+      },
+    ],
     contexte:
       'La SAÉ Créa Campus nous demandait de construire un projet de création d\'entreprise complet, de l\'étude de marché jusqu\'aux aspects juridiques et financiers. En équipe de cinq, nous avons monté PUMP, un restaurant de bowls implanté à Tours, centré sur la transparence nutritionnelle. L\'idée est partie d\'un constat que nous vivions nous-mêmes : manger équilibré quand on est étudiant et sportif demande un temps et une information que personne n\'a vraiment.',
     objectifs: [
@@ -206,6 +220,27 @@ export const realisationsPro = [
     organisation: 'Projet personnel, micro-entreprise',
     periode: 'Depuis 2025, lancement sur l\'App Store en 2026',
     role: 'Fondateur, de l\'idée à la commercialisation',
+    visuelsPortrait: true,
+    visuels: [
+      {
+        src: './lucide-suivi.jpg',
+        position: 'center top',
+        legende:
+          'Le tableau de bord : calories consommées, restantes et objectif, puis chaque macronutriment avec sa progression. La lisibilité immédiate était le parti pris de départ.',
+      },
+      {
+        src: './lucide-ia.jpg',
+        position: 'center top',
+        legende:
+          'L\'analyse d\'un aliment décrit en langage naturel. C\'est la fonction dont j\'ai optimisé le coût par requête pour que le modèle économique tienne.',
+      },
+      {
+        src: './lucide-appstore.jpg',
+        position: 'center top',
+        legende:
+          'La fiche de l\'application sur l\'App Store, publiée après quatre refus successifs.',
+      },
+    ],
     contexte:
       'Le marché du suivi nutritionnel est dominé par quelques applications valorisées à plusieurs centaines de millions d\'euros, toutes positionnées sur le grand public. En tant que pratiquant régulier, je cherchais un outil simple, rapide et soigné pour suivre mes calories et mes macronutriments, et je ne le trouvais pas. Un besoin que je vivais moi-même, sur un marché dont la taille atteste la demande : les deux conditions qui m\'ont décidé à me lancer.',
     objectifs: [
